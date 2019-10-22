@@ -72,6 +72,14 @@ Niektórzy używają znaku tabulacji (osobiście nie rekomenduję).
 **Użycie mieszanki znaków odstępu i tabulacji jest proszeniem
 się o kłopoty** - będzie oceniane jako błąd.
 
+Wcięcia mogą być zagnieżdżone:
+
+```python
+def print_multiplication_table():
+    for a in range(1, 11):
+        for b in range(1, 11):
+            print('{} * {} = {}'.format(a, b, a * b))
+```
 
 
 ## Typ logiczny
@@ -209,3 +217,42 @@ znakiem tabulacji (`'\t'`).
 
 [Metoda pozwalająca wykorzystać obiekt tekstowy jako szablon](
 https://docs.python.org/3/library/stdtypes.html#str.format).
+
+
+## Zadanie 8
+
+1. Zmodyfikuj funkcję `even(n)` tak, by wywołana drukowała 'even called'.
+2. Zdefiniuj analogiczną funkcję `odd(n)`.
+3. Używając operatora logicznego `or` zdefiniuj funkcję `always(n)` sprawdzającą,
+czy `n` jest parzysta lub nieparzysta.
+4. Używając operatora logicznego `and` zdefiniuj funkcję `never(n)` sprawdzającą,
+czy `n` jest jednocześnie parzysta lub nieparzysta.
+
+
+## Leniwe operatory
+
+```python
+>>> print(even(1) and odd(1))
+>>> print(even(2) and odd(2))
+>>> print(0 and 123)
+>>> print(1 and 123)
+>>> print(even(1) or odd(1))
+>>> print(even(2) or odd(2))
+>>> print(1 or 123)
+>>> print(0 or 123)
+```
+
+
+## Zadanie 8a
+
+1. Zdefiniuj funkcję `always(n)` nie używając operatorów logicznych.
+2. Analogicznie zdefiniuj funkcję `never(n)`.
+
+
+## Zadanie 9
+
+Zdefiniuj funkcję `solve(a, b, c)` rozwiązującą równania kwadratowe:
+1. Będące równaniami kwadratowymi o dwóch rozwiązaniach rzeczywistych(`delta > 0`)...
+2. ... oraz będące równaniami kwadratowymi bez rzeczywistych rozwiązań (`delta < 0`)...
+3. ... oraz będące równaniami kwadratowymi o jednym rzeczywistym rozwiązaniu (`delta == 0`)...
+4. ... oraz będące równaniem liniowym (`a == 0`).
