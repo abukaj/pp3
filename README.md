@@ -1,6 +1,3 @@
-         *         *         *         *         *         *         *         *
-
-
 Zajęcia 4
 -----------
 
@@ -26,3 +23,21 @@ z załącznikiem.  Wysłanie wiadomości z rozwiązaniem będzie kluczowym
 elementem zadania. ;)
 
 
+
+## Na rozgrzewkę
+
+```python
+>>> help(print)
+>>> print(print.__doc__)
+>>> type(print.__doc__)
+>>> 1_000_000 == 1_000_000
+>>> 1_000_000 is 1_000_000
+>>> a = 1
+>>> b = 1
+>>> a is b
+>>> a = 1_000_000
+>>> b = 1_000_000
+>>> a is b
+>>> id(a)
+>>> id(b)
+```
