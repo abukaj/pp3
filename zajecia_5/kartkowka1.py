@@ -2,8 +2,8 @@
 # Kartkowka nr 1
 # Nr albumu:
 
-# Zdefiniuj ponizej (pomiedzy znacznikami) funkcje (x)
-# zwracajaca liczby x
+# Zdefiniuj ponizej (pomiedzy znacznikami) funkcje absolute(x)
+# zwracajaca wartosc bezwzgledna liczby x
 
 ### POCZATEK DEFINICJI
 
@@ -25,6 +25,6 @@
 # funkcji, zeby odkomentowane testy nie konczyly sie bledem.
 
 if __name__ == '__main__':
-    # assert == 0
-    # assert == 1
-    # assert == 2
+    # assert absolute(0) == 0
+    # assert absolute(1) == 1
+    # assert absolute(-2) == 2

@@ -4,8 +4,8 @@ Zajęcia 5
 ## Kartkówka
 
 Uzupełnij szablon "kartkowka1.py" wpisując swój numer albumu oraz
-definiując we wskazanym miejscu funkcję `(x)` zwracającą
-liczby `x` (definicja na tablicy).
+definiując we wskazanym miejscu funkcję `absolute(x)` zwracającą
+wartość bezwzględną liczby `x` (definicja matematyczna na tablicy).
 
 
 ### Pobranie szablonu rozwiązania
