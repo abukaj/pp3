@@ -18,9 +18,11 @@ Zadania 8-11.
 
 ## Zadanie 1
 
-Zdefiniuj funkcję `wait_for_password(password)` która będzie pytać
-użytkownika o hasło tak długo, aż ten wpisze poprawne (tzn. podane
-jako parametr) - wtedy funkcja zakończy swoje działanie.
+Popraw funkcję `wait_for_password(password)` by pytała użytkownika
+o hasło tak długo, aż ten wpisze poprawne (tzn. podane jako parametr)
+- i wtedy kończyła swoje działanie.
+
+Są na to przynajmniej 3 podobnie eleganckie sposoby.
 
 
 ## Symulowanie pętli for pętlą while
@@ -53,6 +55,8 @@ print(a)
 {1, 2} | {2, 3}
 {1, 2} & {2, 3}
 {1, 2} ^ {2, 3}
+
+{i ** 2 - 2 * i + 1 for i in range(4)}
 ```
 
 #### Krotki
@@ -67,6 +71,13 @@ print(a)
 1, 2, 3
 (1, 2) + (3, 4)
 (1, 2) * 4
+```
+
+
+#### Frozenset
+
+```python
+frozenset([1, 2, 3])
 ```
 
 
@@ -118,24 +129,104 @@ print(mapping2)
 print(mapping)
 
 mapping2 = mapping.copy()
-mapping2['cztery'] = 4
+mapping2[4] = 'd'
 print(mapping2)
 print(mapping)
 
 mapping2 = dict(mapping)
+
+{'{} ** 2'.format(i): i for i in range(4)}
 ```
 
 
-## Jak ponumerować obiekty uzywając pętli for?
+## Kilka przydatnych funkcji
+
+```python
+numbers = [3, 1, 4, 1, 5, 9]
+print(max(numbers))
+print(max(1, 2))
+
+print(min(numbers))
+print(min(1, 2))
+
+print(sorted(numbers))
+print(numbers)
+numbers_sorted = sorted(numbers, reverse=True)
+print(numbers_sorted)
+
+numbers_sorted.sort()
+print(numbers_sorted)
+
+for i in reversed(numbers):
+    print(i)
+
+print(sum(numbers))
+sum([[1], [2], [3]])
+print(sum([[1], [2], [3]], []))
+print(sum([[1], [2], [3]], [1337]))
+
+strings = list(map(str, numbers))
+print(strings)
+
+sum(strings, '')
+print(''.join(strings))
+
+pi = float(''.join(strings))
+print(pi)
+print(round(pi))
+
+print(abs(-3))
+```
+
+Niektóre funkcje (i metoda) mają więcej możliwości -- zachęcam do
+używania funkcji `help()` oraz czytania [dokumentacji](
+https://docs.python.org/3/library/functions.html#built-in-funcs).
+
+
+## Jak ponumerować iterowane elementy?
 
 ```python
 numbers = [10, -20, 40]
-for i, n in enumerate(numbers):
+for i, n in enumerate(numbers, start=1):
     print('{}\t{}'.format(i, n))
 ```
 
+```python
+mapping = dict(enumerate('abcdefghijklmnopqrstuvwxyz', start=1))
+```
+
+
+## Domyślne argumenty
+
+```python
+def add(a, b=1):
+    return a + b
+```
+
+Co tu się dzieje?
+```python
+def append_one(numbers=[]):
+    numbers.append(1)
+    return numbers
+
+print(append_one([0]))
+numbers = append_one()
+print(numbers)
+print(append_one())
+print(append_one([]))
+print(numbers is append_one())
+print(numbers is append_one([]))
+```
 
 ## Zadanie 2
+
+Popraw funkcję `append_one()` tak, by jej zachowanie zależało tylko od
+wartości argumentów, z jakimi została wywołana.
+
+Podpowiedź: użyj wartości domyślnej `None` i instrukcji warunkowej.
+
+
+## Zadanie 3
 
 Zdefiniuj (nie korzystając z `zip()`) funkcję `multiply(A, B)`
 zwracającą nową listę, której elementy będą iloczynem odpowiednich
@@ -155,8 +246,41 @@ for something in zip([1, 2, 3], [4, 5], [6, 7, 8]):
 ```
 
 
-## Zadanie 3
+## Zadanie 4
 
 Przepisz funkcję `multiply(A, B)` korzystając z funkcji `zip()`.
 
-### Sito Erastostenesa
+Co się dzieje, gdy `len(A) != len(B)`?
+
+
+## Jeszcze raz o list/dict/set comprehension
+
+```python
+parzyste = [i for i in range(100) if i % 2 == 0]
+```
+
+
+## Zadanie 5
+
+Uzupełnij funkcję `primes_up_to(n)` tak, by zwracała zbiór wszystkich liczb
+pierwszych nie większych niż `n`.
+
+
+## Zadanie 6
+
+Uzupełnij funkcję `sieve_of_eratosthenes(n)` tak, by implementowała
+[sito Eratostenesa](https://pl.wikipedia.org/wiki/Sito_Eratostenesa).
+
+
+## Zadanie 7
+
+Uzupełnij funkcję `bubble_sort(sequence)` tak, aby implementowała
+w miejscu [algorytm sortowania bąbelkowego](
+https://pl.wikipedia.org/wiki/Sortowanie_b%C4%85belkowe).
+
+## Inne proste algorytmy sortowania w miejscu
+
+* [Sortowanie przez wstawianie](
+    https://pl.wikipedia.org/wiki/Sortowanie_przez_wstawianie),
+* [Sortowanie przez wybieranie](
+    (https://pl.wikipedia.org/wiki/Sortowanie_przez_wybieranie).

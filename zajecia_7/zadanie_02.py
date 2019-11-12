@@ -1,10 +1,13 @@
 #!/usr/bin/python3
 
-def multiply(A, B):
-    pass
+def append_one(numbers=[]):
+    numbers.append(1)
+    return numbers
+
 
 if __name__ == '__main__':
-    # assert multiply([], []) == []
-    # assert multiply([1], [2]) == [2]
-    # assert multiply([1, 2], [3, 4]) == [3, 8]
+    assert append_one([]) == [1]
+    assert append_one([2]) == [2, 1]
+    assert append_one() == [1], 'pierwsze wywolanie append_one()'
+    assert append_one() == [1], 'drugie wywolanie append_one()'
 
