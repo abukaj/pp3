@@ -178,7 +178,7 @@ print(round(pi))
 print(abs(-3))
 ```
 
-Niektóre funkcje (i metoda) mają więcej możliwości -- zachęcam do
+Niektóre funkcje (i metoda) mają więcej możliwości - zachęcam do
 używania funkcji `help()` oraz czytania [dokumentacji](
 https://docs.python.org/3/library/functions.html#built-in-funcs).
 
@@ -275,12 +275,14 @@ Uzupełnij funkcję `sieve_of_eratosthenes(n)` tak, by implementowała
 ## Zadanie 7
 
 Uzupełnij funkcję `bubble_sort(sequence)` tak, aby implementowała
-w miejscu [algorytm sortowania bąbelkowego](
-https://pl.wikipedia.org/wiki/Sortowanie_b%C4%85belkowe).
+w miejscu algorytm sortowania przez wstawianie.
 
-## Inne proste algorytmy sortowania w miejscu
+### Proste algorytmy sortowania w miejscu
 
 * [Sortowanie przez wstawianie](
-    https://pl.wikipedia.org/wiki/Sortowanie_przez_wstawianie),
+    https://pl.wikipedia.org/wiki/Sortowanie_przez_wstawianie).
 * [Sortowanie przez wybieranie](
-    (https://pl.wikipedia.org/wiki/Sortowanie_przez_wybieranie).
+    https://pl.wikipedia.org/wiki/Sortowanie_przez_wybieranie).
+* [Sortowanie bąbelkowe](
+    https://pl.wikipedia.org/wiki/Sortowanie_b%C4%85belkowe).
+

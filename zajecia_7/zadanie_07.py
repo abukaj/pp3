@@ -1,28 +1,32 @@
 #!/usr/bin/python3
 
-def bubble_sort(sequence):
-    # n = liczba_elementow(sequence)
-    # dopoki n > 1:
-    #     dla i od 0 do n - 2:
-    #         jesli sequence[i] > sequence[i+1]
-    #              zamien sequence[i] z sequence[i+1]
-    #     n -= 1
+def insertion_sort(sequence):
+    for first_not_sorted in range(len(sequence) - 1):
+        insert_to_sorted(sequence, first_not_sorted)
+        # NIEZMIENNIK:
+        # wszystkie elementy sequence o indeksach mniejszych od
+        # first_not_sorted sa posortowane i nie wieksze od pozostalych
+        # elementow
+
+
+def insert_to_sorted(sequence, element_index):
+    pass
 
 
 if __name__ == '__main__':
     # numbers = []
-    # bubble_sort(numbers)
+    # insertion_sort(numbers)
     # assert numbers == []
 
     # numbers = [1]
-    # bubble_sort(numbers)
+    # insertion_sort(numbers)
     # assert numbers == [1]
 
     # numbers = [2, 1]
-    # bubble_sort(numbers)
+    # insertion_sort(numbers)
     # assert numbers == [1, 2]
 
     # numbers = [2, 1, 3]
-    # bubble_sort(numbers)
+    # insertion_sort(numbers)
     # assert numbers == [1, 2, 3]
 
