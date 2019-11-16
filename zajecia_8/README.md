@@ -53,6 +53,97 @@ for i, n in enumerate(numbers):
 mapping = dict(enumerate('abcdefghijklmnopqrstuvwxyz', start=1))
 ```
 
+## Poranek poetycko-historyczny
+
+Otwórzmy do odczytu plik 'reduta.txt' i wczytajmy jego zawartość:
+
+```python
+fh = open('reduta.txt', 'r')
+text = fh.read()
+print(text)
+```
+
+Zwróćmy uwagę, że ponowna próba wczytania zawartości się nie powiedzie:
+
+```python
+print(fh.read())
+```
+
+W "dawnych czasach" dane przechowywane były na taśmach (perforowanych,
+magnetycznych, itp.), które odczytywano sekwencyjnie.  Aby wczytac dane
+ponownie, trzeba było tasmę przewinąć (ustawić głowicę odczytującą na
+początku tasmy).  Pliki odziedziczyły to rozwiązanie, zatem "przewińmy"
+nasz plik:
+
+```python
+fh.seek(0)
+print(fh.read())
+```
+
+Po skończonej pracy naleźy po sobie posprzątać - w tym przypadku
+zamknąć otwarty plik:
+
+```python
+fh.close()
+```
+
+Możemy też usunąć etykietę `fh`:
+```python
+del fh
+```
+co pozwoli interpreterowi na zwolnienie pamięci zajmowanej przez zbędny
+już obiekt.  Jeśli etykieta była zdefiniowana w funkcji, jest ona
+usuwana automatycznie po prawidłowym opuszczeniu funkcji.
+
+Pamiętanie o tym bywa kłopotliwe.  Na szczęście obiekt zwracany przez
+funkcję `open()` jest zarządcą kontekstu (ang. "context manager";
+obiekt posiadający metody `.__enter__()` i `.__exit__()`) i może nas
+w tym wyręczyć, gdy tylko przestanie nam być potrzebny:
+
+```python
+with open('reduta.txt', 'r') as fh:
+    text = fh.read()
+    print(fh.closed)
+
+print(fh.closed)
+```
+
+Policzmy słowa w wierszu:
+```python
+words = text.split()
+print(len(words))
+```
+
+Jak policzyć linie?
+
+```python
+lines = text.split('\n')
+print(len(lines))
+```
+
+Ale to nie może być aż takie proste:
+```python
+print(words[24])
+print(lines[-1])
+```
+
+Słowem jest dowolny niepusty ciąg _czarnych znaków_, linia zaś może być
+pusta.  Ze względów historycznych linie mogą być rozdzielone znakami
+nowej linii (`'\n'`;
+[LF](https://en.wikipedia.org/w/index.php?title=Line_feed&redirect=no);
+ang. "Line Feed"), znakami powrotu karetki (`'\r'`;
+[CR](https://en.wikipedia.org/wiki/Carriage_return),
+ang. "Carriage Return") bądź obydwoma (`\r\n` lub `\n\r`).  Ograniczamy
+się tu wyłącznie do kodowania tekstu w sposób zgodny z [ASCII](
+https://en.wikipedia.org/wiki/ASCII).  Standardowo dziedzice systemu
+Unix (choćby pochodzące z "nieprawego łoża", jak Linux) używają znaków
+_LF_, zaś systemu DOS - _CRLF_.
+
+
+```python
+print('1,2,3'.split(',2,'))
+```
+
 **TODO**
 
 
