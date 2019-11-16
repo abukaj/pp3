@@ -1,7 +1,7 @@
 Zajęcia 7
 ---------
 
-### Pobranie materiałów
+## Pobranie materiałów
 
 ```bash
 $ git pull
@@ -28,8 +28,9 @@ Są na to przynajmniej 3 podobnie eleganckie sposoby.
 ## Symulowanie pętli for pętlą while
 
 ```python
-i = 0
 numbers = [3, 1, 4, 1, 5, 9]
+
+i = 0
 while i < len(numbers):
     print(numbers[i])
     i += 1
@@ -274,7 +275,7 @@ Uzupełnij funkcję `sieve_of_eratosthenes(n)` tak, by implementowała
 
 ## Zadanie 7
 
-Uzupełnij funkcję `bubble_sort(sequence)` tak, aby implementowała
+Uzupełnij funkcję `insertion_sort(sequence)` tak, aby implementowała
 w miejscu algorytm sortowania przez wstawianie.
 
 ### Proste algorytmy sortowania w miejscu
