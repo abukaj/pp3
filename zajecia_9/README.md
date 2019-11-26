@@ -184,6 +184,18 @@ python3 modul.py
 
 **Powiedzieć, co robi `sys.stderr`.**
 
+#### Jak (po raz kolejny) mozna strzelić sobie w stopę?
+
+```bash
+touch numpy.py
+```
+
+```python
+from numpy import array
+import numpy
+print(dir(numpy))
+```
+
 
 ## Zadanie 1
 
