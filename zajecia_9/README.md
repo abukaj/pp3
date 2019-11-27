@@ -279,6 +279,12 @@ Uzupełnij funkcję `primes_up_to(n)` tak, by zwracała zbiór wszystkich liczb
 pierwszych nie większych niż `n`.
 
 
+## Zadanie 6
+
+Zdefiniuj funkcję `python_2_map(f, iterable)`, która zwróci listę
+wartości funkcji `f(x)` dla kolejnych `x` w `iterable`.
+
+
 
 ## Zadanie 7
 
@@ -296,7 +302,7 @@ w miejscu algorytm sortowania przez wstawianie.
 
 
 
-## Zadanie 6
+## Zadanie 8
 
 Uzupełnij funkcję `sieve_of_eratosthenes(n)` tak, by implementowała
 [sito Eratostenesa](https://pl.wikipedia.org/wiki/Sito_Eratostenesa).
