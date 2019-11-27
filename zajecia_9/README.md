@@ -81,18 +81,18 @@ def nwd(a, b):
 
 Algorytm:
 1. numer jest ciągiem cyfr dziesiętnych
-1a. numerujemy je od końca (ostatnia: 1, przedostatnia: 2, itd.)
-2. cyfry o numerach nieparzystych mnożymy przez 2, a o parzystych przez 1
-3. jeśli w wyniku mnożenia otrzymano liczbę dwucyfrową, dodaje się cyfry
+2. numerujemy je od końca (ostatnia: 1, przedostatnia: 2, itd.)
+3. cyfry o numerach nieparzystych mnożymy przez 2, a o parzystych przez 1
+4. jeśli w wyniku mnożenia otrzymano liczbę dwucyfrową, dodaje się cyfry
    do siebie otrzymując liczbę jednocyfrową
-4. dodaje się wszystkie otrzymane liczby do siebie
-5. z wyniku bierze się jedynie cyfrę jedności
-6. jeżeli rezultatem nie jest 0, numer nie jest poprawny.
-```
+5. dodaje się wszystkie otrzymane liczby do siebie
+6. z wyniku bierze się jedynie cyfrę jedności
+7. jeżeli rezultatem nie jest 0, numer nie jest poprawny.
 
 
 ## Moduły
 
+[Na stronie przedmiotu](https://brain.fuw.edu.pl/edu/index.php/PPy3/Modu%C5%82y)
 Znamy polecenie `import sys`.  Po jego wykonaniu uzyskamy dostęp do
 obiektów z przestrzeni nazw modułu `sys`:
 
@@ -306,4 +306,10 @@ w miejscu algorytm sortowania przez wstawianie.
 
 Uzupełnij funkcję `sieve_of_eratosthenes(n)` tak, by implementowała
 [sito Eratostenesa](https://pl.wikipedia.org/wiki/Sito_Eratostenesa).
+
+
+## Praca własna
+
+Zapoznać się z [zagadnieniami dotyczącymi biblkioteki NumPy](
+https://brain.fuw.edu.pl/edu/index.php/PPy3/NumPy)
 
