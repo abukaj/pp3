@@ -21,8 +21,8 @@ $ git pull
 ## Kartkówka
 
 Uzupełnij szablon "kartkowka2.py" wpisując swój numer albumu oraz
-definiując we wskazanym miejscu funkcję `()` zwracającą
-(objaśnienie na tablicy)
+definiując we wskazanym miejscu funkcję `inverted()` zwracającą
+"odwrócony" słownik `d` (objaśnienie na tablicy)
 
 
 ### Przesłanie rozwiązania
