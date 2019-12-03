@@ -42,13 +42,30 @@ nie kończy się błędem składni**
 
 **Zadanie 4 z poprzedniej listy**
 
-
 ### Ciekawostka
+```python
+import numpy as np
+eps = np.finfo(float).eps
+print(eps)
+print(1 + eps - 1)
+print(eps / 2)
+print(1 + eps / 2 - 1)
+print(np.arange(1 - eps, 1 + eps, eps/10))
+print(np.arange(1 - eps, 1 + eps, eps/10) - 1)
+print(np.linspace(1 - eps, 1 + eps, 20) - 1)
+print(np.arange(0, 10, 0.5))
+print(np.linspace(0, 10, 20))
+print(np.linspace(0, 10, 20, endpoint=False))
+```
+
+`arange` a `linspoace`
+
+### Ciekawostka 2
 
 ```python
 A = np.array([1, 2, 3])
 print(A * 0.5)
-A *= 0.5
+A *= 0.5  # Sam nie wiem, co to zrobi w tej wersji ;)
 print(A)
 ```
 
