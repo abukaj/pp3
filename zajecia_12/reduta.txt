@@ -1,0 +1,136 @@
+REDUTA NORTONA
+opowiadanie rezydenta
+
+
+Nam pisać nie kazano. W systemie zadrżało
+Ztrace'owałem program; dwieście funkcji grzmiało.
+Globalnych procedur ciągną się szeregi,
+Prosto, długo, daleko - jako morza brzegi;
+I ujrzałem EXE'ka: wczytał, stertą skinął
+I jak ptak jedno skrzydło kodu swego zwinął;
+Wylewa się spod skrzydła ściśniona tablica,
+Wielką długą kolumną, jako dysku lica,
+Nasypane iskrami sektorów.  Jak tempy
+Ku skasowaniu jej bieżą zastępy.
+
+A przeciw niej - binarna, szybko przetworzona,
+Jak FAT leżący w dysku, reduta Nortona
+Sześć tylko ma modułów; wciąż defragmentują;
+I nie tyle inku dysze jeta plują,
+I nie tyle bitów idzie przez RS-a w RETAL-u,
+Ile te moduły wytworzą fraktalów.
+Patrz, tam wirus w sam środek sektora się nurza
+Jak pamięć mały segment, procesor zachmurza;
+Budzi się wirus, blok ostatni leci
+I ogromna łysina bad-sectorów świeci.
+
+Głowica z dala leci, prądem szumi, wyje,
+Iskrzy jak DMA przed bitwą, miota się, dysk ryje;
+Już dopadła; jak boa śród ścieżek się zwija,
+Czyta piersią, pisze zębem, oddechem odbija.
+Ostatniej nie widać, lecz słychać po dźwięku,
+Po czytaniu się plików, kasowanych jęku:
+Gdy CLUSTER od końca do końca przewierci,
+W powietrzu zaraz izolacją śmierdzi.
+
+Gdzież jest system, co na rzezie tłumy te wyprawia?
+Czy dzieli ich algorytm, stosu sam nadstawia?
+Nie, on siedzi na płycie, na swojej matrycy,
+Król wielki, samowładnik dysku połowicy;
+Przełączył CMOS-a - i tysiąc sektorów już leci;
+Podłączył - tysiąc katalogów opłakuje dzieci;
+Odłączył - padają kości, tam w pamięci dziwy.
+Mocarzu, jak DOS silny, jak WIZARD złośliwy,
+Gdy bajty szeregowe twoje straszą sumy,
+Gdy dysku twój kontroler pisze pełen dumy,
+Commander się jeden twej władzy wypiera,
+FAT formatuje i TRON ci odbiera,
+TRON-a Ongrysów ściąga z twego dysku,
+Boś go śmiał zdebuggować na tym swoim RISC-u!
+
+BIOS dziwi się - drganie porusza napędy,
+BIOS gniewa się - lecą drukarek głowic zęby;
+Ale sypią się dane, którym ranna rosa
+Wdarła się między bajty.  Zginiem - rozweselim BIOSa.
+Posłany DOS IBM-owski z siłami pół sieci,
+Wierny, czynny, sprawny - ogień w rękach dzieci.
+
+Ura!  Ura!  Patrz, blisko reduty już w nowy
+Segment pamięci kładą swe tułowy;
+Jeszcze toner przyczepiony do drukarki wałów,
+Jeszcze zasilacz w środku jasny od przepałów,
+Czerwieni się nad czernią, jak w środek lotniska
+Płonący TOMCAT leci, FISHBED go naciska,
+Zgasł; z nim zgasła reduta.  Czyż modułu ciało
+Strącone z wektora kod swój skasowało?
+Czy WIZARD boot-sector już zerami zalał?
+Już segmenty modułów COMMAND.COM rozwalał.
+
+Gdzież antywirus?  Ach dziś pracował więcej
+Niż na wszystkich przeglądach za tej władzy dziecięcej;
+Zgadłem, dlaczego milczy bo nieraz widziałem
+Lichy algorytm walczący z wirusów nawałem.
+Gdy godzinę wołano dwa słowa: pisz, czytaj;
+Gdy przerwania przejęte, MULTITASKING, myszka;
+To skok bezpośredni, wre wirusia czynność;
+Na koniec bez skoku pełnią swą powinność,
+Na koniec randomowo, bez czucia napięcia,
+Antywir jako młyn dysku, czyta, grzmi, kręci
+Kod z dysku w segmenta, z segmentów na oko:
+Aż program wśród szczepionek długo i szeroko
+Szukał, nie znalazł - antywir zawisnął,
+Nie znalazłszy szczepionki, w pamięci się ścisnął;
+I uczuł, że nim kręci pętla nieskończona;
+Opuścił ją, wyskoczył; wnet ztrace'ują TRONA!
+Wektorem szarpnęło, w FAT wirusów kupa
+Już lazła, jak TEQUILLA na świeżego boota.
+
+Pociemniała pamięć - gdy zniszczyłem zator,
+Zobaczyłem co robił NORTON INTEGRATOR.
+On przez funkcyję wspartą na moim wektorze
+Długo spoglądał na wirusów morze.
+Na koniec rzekł: "Stracona". Spośród portów jego
+Spłynęło bajtów kilka, rzekł do mnie: "Kolego,
+Algorytm twój lepszy; patrzaj tam w sektorze,
+Znasz Nortona, czy widzisz gdzie?"  "Dyrektorze,
+Czy go znam?  Tam stał zawsze, ten moduł kierował.
+Nie widzę - znajdę - dojrzę!  W bad-blockach się schował.
+Lecz wśród najgłębszych zapętleń kodu ileż razy
+Widziałem LINKER jego tworzący rozkazy...
+Widzę go znowu - tam wirusów prasa.
+Wywija, grozi wrogom, ma w SETUP adresa,
+Kasują go - zginął - o nie, skoczył w dół - do drivera!"
+"Dobrze - rzecze Dyrektor - nie odda servera".
+
+Tu blask, dym, chwila cicho, huk jak stu kowalów.
+
+W puch się rozpękł monitor od ciężkich fraktalów,
+Głowice podskoczyły i jak wystrzelone
+Pędziły śród ścieżek - Pliki wyczyszczone
+Nie trafiły w FAT-u kopie.  I dym wionął
+Prosto ku nam; i w gęstej chmurze nas ochłonął.
+I nie było nic widać nim kineskop zgasnął.
+Na zawsze - już tylko odłamek w dysk trzasnął...
+Spojrzałem na redutę; plik, monitor blady,
+Moduły, i naszych garstka, i wrogów gromady:
+Wszystko jak TEMP znikło.  Tylko szara bryła
+SERVER zniszczony leży - rozjemcza mogiła.
+Tam i ci co bronili, i ci co się wdarli,
+Pierwszy raz pokój szczery i wieczny zawarli.
+I choćby BIOS wirusom kazał wstać, już dusza
+Wirusia tam raz pierwszy BIOS-a nie posłusza.
+Tam zagrzebane tylu set kody i imiona:
+Źródła gdzie?  Nie wiem; lecz wiem, gdzie źródło Nortona.
+On będzie Patron dysków!  bo dzieło zniszczenia
+W dobrej sprawie jest święte, jak dzieło tworzenia;
+DOS wyrzekł słowo stań się, DOS i zgiń wyrzecze.
+Gdy przerwaniom adres funkcyj obsługi uciecze,
+Kiedy dyski BIOS-ów ta duma szalona
+Obleje, jak wirusy redutę Nortona,
+Każąc plemię hardware'u GIFami zatrute,
+DOS wysadzi te sieci jak on swą redutę.
+
+Ongrys
+(pisane o spadku napięcia
+nad brzegiem dysku w Warszawie
+1993-4-20 --- 1993-5-5;2:41pm)
