@@ -195,6 +195,7 @@ traktowane równoważnie).  Domyślna wartość tego parametru to oczywiście
 powinna implementować funkcja:
 - Koniec matury (`key='KoniecMatury'`),
 - Malinowe buty (`key='MalinoweButy'`),
+- Halo, tu rekiny (`key='HaloTuRekiny'`),
 - Nowe buty lisa (`key='NoweButyLisa'`),
 - KC-minutowy (`key='KaCeMinutowy'`),
 - Polityka Renu (`key='PolitykaRenu'`),
