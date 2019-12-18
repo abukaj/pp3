@@ -366,7 +366,41 @@ klasowych będących kolejnymi wyrazami ciągu geometrycznego
 (`bins=np.logspace(...)`).
 
 
-### Zadanie 6 - metoda Eulera
+### Zadanie 6
+
+Wczytaj dane epidemiologiczne
+(`np.loadtxt('diseases.csv', delimiter=',')`).
+
+W pierwszej kolumnie jest rok, w drugiej - numer dwutygodniowego
+(ok. 15 dni) okresu, w kolejnych - skumulowana (w okresach danego roku)
+liczba zachorowań na (kolejno) grypę, ospę wietrzną i odrę.
+
+Sprawdź poprawność danych (np. czy skumulowane liczby w każdym roku są
+rosnące).
+
+
+#### Zadanie 6a
+
+Dla każdej choroby wykreśl na jednym wykresie dwie opisane w legendzie
+krzywe przedstawiające liczbę zachorowań - jedna w roku 2018, druga
+w 2019.
+
+
+#### Zadanie 6b
+
+Wygładź krzywe za pomocą średniej ruchomej.  Poeksperymentuj z różną
+długością okna i różnymi wagami.
+
+
+#### Zadanie 6c
+
+Dla każdej choroby przygotuj wykres słupkowe pokazujące liczbę
+zachorowań w kolejnych miesiącach od października 2017 (włącznie)
+do listopada 2019 (włącznie).
+
+
+
+### Zadanie 7 - metoda Eulera
 
 Księżyc (którego masa nie jest istotna) w chwili 0 znajduje się
 w apogeum (`position = np.array([405.696e9, 0])` m), zaś Ziemia
@@ -396,9 +430,9 @@ i oszacować **przed rozpoczęciem obliczeń i rysowania**, ile kroków
 przypadnie na 3 miesiące.
 
 
-### Zadanie 7 - porównanie zbieżności metody bisekcji z metodą Newtona
+### Zadanie 8 - porównanie zbieżności metody bisekcji z metodą Newtona
 
-#### Zadanie 7a
+#### Zadanie 8a
 
 Na poprzednich zajęciach implementowali Państwo metodę bisekcji
 (zad. 2a) dla funkcji `f(x) = x ** 2 - 2`.  Proszę zmodyfikować
@@ -406,7 +440,7 @@ implementację tak, żeby zapamietywała (np. dopisując do listy) wartości
 punktu środkowego dla kolejnych kroków metody.
 
 
-#### Zadanie 7b
+#### Zadanie 8b
 
 Krok [metoda Newtona](https://pl.wikipedia.org/wiki/Metoda_Newtona)
 dla naszej funkcji będzie mieć postać:
@@ -422,10 +456,17 @@ by:
   przybliżeń wyniesie mniej niż `2 * np.finfo(float).eps`.
 
 
+#### Zadanie 8c
+
+Wartość miejsca zerowego funkcji jest znana (`np.sqrt(2)`).  Proszę
+wykreślić na jednym wykresie krzywe pokazujące wartość bezwzględną błędu
+metod w kolejnych krokach.  Proszę spróbować użyć skali logarytmicznej
+dla osi rzędnych.
 
 
-## Dalsze zagadnienia do pracy własnej
+## Zadanie domowe
 
-[Tematy dodatkowe](https://brain.fuw.edu.pl/edu/index.php/PPy3/TematyDodatkowe)
+Narysuj [śniezynkę](https://en.wikipedia.org/wiki/Snowflake).
+Ocenie podlegac będzie zarówno czytelność kodu, jak i walory estetyczne
+generowanego przez niego rysunku.
 
-[Zasady ,,Dobrej praktyki"](https://brain.fuw.edu.pl/edu/index.php/PPy3/DobrePraktyki)
